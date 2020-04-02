@@ -189,7 +189,7 @@ public class TestTolerantUpdateProcessorCloud extends SolrCloudTestCase {
       String docShard = doc.getFirstValue("[shard]").toString();
       assertTrue("shard routing prefixes don't seem to be aligned anymore, " +
                  "did someone change the default routing rules? " +
-                 "and/or the the default core name rules? " +
+                 "and/or the default core name rules? " +
                  "and/or the numShards used by this test? ... " +
                  "couldn't find " + expected + " as substring of [shard] == '" + docShard +
                  "' ... for docId == " + doc.getFirstValue("id"),
