@@ -962,7 +962,7 @@ Improvements
   nodes instead of using them directly at the toplevel (noble)
 
 * SOLR-13329: In autoscaling policies, use an explicit 'put : on-each-node'
-  to specify the the rules is applied on each node  (noble)
+  to specify the rules is applied on each node  (noble)
 
 * SOLR-13347: Transaction log to natively support UUID types (Thomas Wöckinger via noble)
 
@@ -18879,7 +18879,7 @@ This problem is corrected in Solr 1.3, but DateField users that might
 have been affected by indexing inconsistent formats of equivalent
 dates (ie: 1995-12-31T23:59:59Z vs 1995-12-31T23:59:59.000Z) may want
 to consider reindexing to correct these inconsistencies.  Users who
-depend on some of the the "broken" behavior of DateField in Solr 1.2
+depend on some of the "broken" behavior of DateField in Solr 1.2
 (specificly: accepting any input that ends in a 'Z') should consider
 using the LegacyDateField class as a possible alternative.  Users that
 desire 100% backwards compatibility should consider using the Solr 1.2
@@ -19849,7 +19849,7 @@ Bug Fixes
     possible for path based request handlers.  (ryan)
 
 14. SOLR-214: Some servlet containers (including Tomcat and Resin) do not
-    obey the specified charset.  Rather then letting the the container handle
+    obey the specified charset.  Rather then letting the container handle
     it solr now uses the charset from the header contentType to decode posted
     content.  Using the contentType: "text/xml; charset=utf-8" will force
     utf-8 encoding.  If you do not specify a contentType, it will use the
