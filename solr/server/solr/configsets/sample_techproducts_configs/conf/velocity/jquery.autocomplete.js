@@ -357,7 +357,7 @@ $.Autocompleter = function(input, options) {
         }
       });
     } else {
-      // if we have a failure, we need to empty the list -- this prevents the the [TAB] key from selecting the last successful match
+      // if we have a failure, we need to empty the list -- this prevents the [TAB] key from selecting the last successful match
       select.emptyList();
       failure(term);
     }

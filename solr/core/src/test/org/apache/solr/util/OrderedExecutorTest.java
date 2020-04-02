@@ -159,7 +159,7 @@ public class OrderedExecutorTest extends SolrTestCase {
       assertEquals(parallelism, postBarrierLatch.getCount());
 
       try {
-        // if we now await on the the barrier, it should release
+        // if we now await on the barrier, it should release
         // (once all other threads get to the barrier as well, but no external action needed)
         barrier.await(120, TimeUnit.SECONDS);
         

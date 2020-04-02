@@ -616,7 +616,7 @@ public class RealTimeGetComponent extends SearchComponent
    * @param onlyTheseNonStoredDVs If not-null, populate only these DV fields in the document fetched through the realtime searcher. 
    *                  If this is null, decorate all non-stored  DVs (that are not targets of copy fields) from the searcher.
    *                  When non-null, stored fields are not fetched.
-   * @param resolveStrategy The strategy to resolve the the document.
+   * @param resolveStrategy The strategy to resolve the document.
    * @see Resolution
    */
   public static SolrInputDocument getInputDocument(SolrCore core, BytesRef idBytes, AtomicLong versionReturned,

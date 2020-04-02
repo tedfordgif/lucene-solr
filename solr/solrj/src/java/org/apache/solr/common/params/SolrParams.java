@@ -238,7 +238,7 @@ public abstract class SolrParams implements Serializable, MapWriter, Iterable<Ma
   }
   
   /**
-   * Returns int value of the the param or 
+   * Returns int value of the param or 
    * default value for int - zero (<code>0</code>) if not set. 
    */
   public int getPrimitiveInt(String param) {

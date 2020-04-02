@@ -357,7 +357,7 @@ final class DocumentsWriterDeleteQueue implements Accountable, Closeable {
     }
 
     /**
-     * Returns <code>true</code> iff the given node is identical to the the slices tail,
+     * Returns <code>true</code> iff the given node is identical to the slices tail,
      * otherwise <code>false</code>.
      */
     boolean isTail(Node<?> node) {

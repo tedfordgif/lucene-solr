@@ -298,7 +298,7 @@ public class NamedList<T> implements Cloneable, Serializable, Iterable<Map.Entry
   }
 
   /**
-   * Gets the values for the the specified name
+   * Gets the values for the specified name
    *
    * @param name Name
    * @return List of values

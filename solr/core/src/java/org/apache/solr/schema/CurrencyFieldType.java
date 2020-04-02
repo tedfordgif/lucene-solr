@@ -268,7 +268,7 @@ public class CurrencyFieldType extends FieldType implements SchemaAware, Resourc
    * after converting each document's native currency to USD -- because the 
    * default fractional digits for <code>USD</code> is "<code>2</code>".  
    * So for a document whose indexed value was currently equivalent to
-   * "<code>5.43,USD</code>" using the the exchange provider for this field, 
+   * "<code>5.43,USD</code>" using the exchange provider for this field, 
    * this ValueSource would return a value of "<code>543</code>"
    * </p>
    *
@@ -297,7 +297,7 @@ public class CurrencyFieldType extends FieldType implements SchemaAware, Resourc
    * represent the equivalent number of dollars after converting each
    * document's raw value to <code>USD</code>.  So for a document whose 
    * indexed value was currently equivalent to "<code>5.43,USD</code>"
-   * using the the exchange provider for this field, this ValueSource would 
+   * using the exchange provider for this field, this ValueSource would 
    * return a value of "<code>5.43</code>"
    * </p>
    *

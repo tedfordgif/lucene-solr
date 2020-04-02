@@ -7431,7 +7431,7 @@ API Changes
 
 Optimizations
 
-* LUCENE-5225: The ToParentBlockJoinQuery only keeps tracks of the the child
+* LUCENE-5225: The ToParentBlockJoinQuery only keeps tracks of the child
   doc ids and child scores if the ToParentBlockJoinCollector is used.
   (Martijn van Groningen)
 

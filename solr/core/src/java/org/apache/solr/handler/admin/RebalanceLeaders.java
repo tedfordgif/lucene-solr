@@ -132,7 +132,7 @@ class RebalanceLeaders {
 
 
     // If there are a maximum number of simultaneous requests specified, we have to pause when we have that many
-    // outstanding requests and wait for at least one to finish before going on the the next rebalance.
+    // outstanding requests and wait for at least one to finish before going on the next rebalance.
     boolean keepGoing = true;
     for (Slice slice : dc.getSlices()) {
       ensurePreferredIsLeader(slice);

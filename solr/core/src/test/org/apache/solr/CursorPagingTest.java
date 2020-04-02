@@ -655,7 +655,7 @@ public class CursorPagingTest extends SolrTestCaseJ4 {
   /**
    * Given a set of params, executes a cursor query using {@link CursorMarkParams#CURSOR_MARK_START}
    * and then continuously walks the results using {@link CursorMarkParams#CURSOR_MARK_START} as long
-   * as a non-0 number of docs ar returned.  This method records the the set of all id's
+   * as a non-0 number of docs ar returned.  This method records the set of all id's
    * (must be positive ints) encountered and throws an assertion failure if any id is
    * encountered more than once, or if the set grows above maxSize
    */
@@ -737,7 +737,7 @@ public class CursorPagingTest extends SolrTestCaseJ4 {
   /**
    * Given a set of params, executes a cursor query using {@link CursorMarkParams#CURSOR_MARK_START}
    * and then continuously walks the results using {@link CursorMarkParams#CURSOR_MARK_START} as long
-   * as a non-0 number of docs ar returned.  This method records the the set of all id's
+   * as a non-0 number of docs ar returned.  This method records the set of all id's
    * (must be positive ints) encountered and throws an assertion failure if any id is
    * encountered more than once, or if the set grows above maxSize.
    *

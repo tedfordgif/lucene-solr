@@ -63,7 +63,7 @@ public class DistributedMap {
   
   /**
    * Puts an element in the map only if there isn't one with the same trackingId already
-   * @return True if the the element was added. False if it wasn't (because the key already exists)
+   * @return True if the element was added. False if it wasn't (because the key already exists)
    */
   public boolean putIfAbsent(String trackingId, byte[] data) throws KeeperException, InterruptedException {
     try {

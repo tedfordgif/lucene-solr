@@ -2734,7 +2734,7 @@ public class CollapsingQParserPlugin extends QParserPlugin {
     final private Object[] nullGroupValues;
     
     /**
-     * Constructs an instance based on the the (raw, un-rewritten) SortFields to be used, 
+     * Constructs an instance based on the (raw, un-rewritten) SortFields to be used, 
      * and an initial number of expected groups (will grow as needed).
      */
     public SortFieldsCompare(SortField[] sorts, int initNumGroups) {

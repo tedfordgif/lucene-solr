@@ -689,7 +689,7 @@ public class TestCloudJSONFacetJoinDomain extends SolrCloudTestCase {
     
     /**
      * Deterministicly identifies if the specified limit &amp; overrequest params <b>require</b> 
-     * a "refine:true" param be used in the the request, in order for the counts to be 100% accurate.
+     * a "refine:true" param be used in the request, in order for the counts to be 100% accurate.
      * 
      * @see #UNIQUE_FIELD_VALS
      */

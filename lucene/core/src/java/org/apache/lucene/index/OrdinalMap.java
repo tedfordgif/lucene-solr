@@ -172,7 +172,7 @@ public class OrdinalMap implements Accountable {
 
   /** Cache key of whoever asked for this awful thing */
   public final IndexReader.CacheKey owner;
-  // globalOrd -> (globalOrd - segmentOrd) where segmentOrd is the the ordinal in the first segment that contains this term
+  // globalOrd -> (globalOrd - segmentOrd) where segmentOrd is the ordinal in the first segment that contains this term
   final PackedLongValues globalOrdDeltas;
   // globalOrd -> first segment container
   final PackedLongValues firstSegments;
